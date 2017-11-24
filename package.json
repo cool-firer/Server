@@ -1,0 +1,24 @@
+{
+  "name": "zhserver",
+  "version": "1.0.0",
+  "description": "a server for training",
+  "main": "app.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.2",
+    "generic-pool": "^3.2.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.19.2",
+    "node-xlsx": "^0.11.0",
+    "rethinkdb": "^2.3.3",
+    "ssh2": "^0.5.5",
+    "winston": "^2.4.0",
+    "winston-daily-rotate-file": "^1.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jc",
+  "license": "ISC"
+}
